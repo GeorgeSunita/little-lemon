@@ -1,11 +1,10 @@
-import "./App.css";
+import React from "react";
+import Main from "./components/Main";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1>Home Page</h1>
-    </div>
+    <>
+      <Main />
+    </>
   );
 }
-
-export default App;
